@@ -1,0 +1,18 @@
+{
+  "name": "nodejsfuncotel",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^3.2.0",
+    "@dynatrace/opentelemetry-azure-functions": "^1.247.1",
+    "@dynatrace/opentelemetry-core": "^1.247.1",
+    "@opentelemetry/resources": "^1.6.0",
+    "@opentelemetry/sdk-trace-node": "^1.6.0",
+    "@opentelemetry/semantic-conventions": "^1.6.0"
+  }
+}
